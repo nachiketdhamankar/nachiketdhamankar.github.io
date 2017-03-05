@@ -1,0 +1,420 @@
+body {
+  color:#474747;
+  padding-top: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.screenFiller {
+    /*backgrond: white;*/
+    height: 100vh;
+    width: /*98.791vw*/99.86vw;
+}
+.imp {
+    color: #c93950;
+}
+#myLogo {
+    margin: 10px 0 0 10px;
+    min-width: 80px;
+    max-width: 7%;
+    display: none;
+}
+
+#myImage {
+    width: 200px ;
+    border-radius: 100%;
+    margin-top: 8%;     /*Change it back to 4% when logo is added*/
+}
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: url(http://www.blastprocessor.co.uk/img/hero-texture.jpg);
+}
+#content, #footer {
+    position: relative;
+}
+#content, #footer {
+    /*padding: 110px 50px 50px; for masking of content*/ 
+    background: #F2F2E8;
+}
+/*.paddingTop {                  --Changed at 12/2/17 at 8:19pm to justify
+    padding-top: 13%;
+}*/
+.main-nav/*#nav*/ {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: /*103.75*/99.86vw;
+    height: 82px/*12%*/;
+    background: white/*DarkSlateGrey*/;
+    font-size: 175%/*35px2.3em*/;
+    z-index: 150;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.6);
+    margin-bottom:-12%;/*If content is getting masked -- 
+    https://teamtreehouse.com/community/forum-tip-create-a-sticky-navigation-with-css-and-jquery-2 
+    at 12:18*/
+    /*background-image: url(http://www.blastprocessor.co.uk/img/hero-texture.jpg);*/ 
+    font-family: 'Merriweather', serif;
+}
+#nav > .col-sm-2 {
+    /*margin-top: 1.7%  1.68%; -- Had to change when class="screenFiller" was removed*/
+    padding-top: 1.7%;
+    padding-bottom: ;
+    margin-left: 30px;
+}
+.col-sm-2 > a {
+    color:/*white DarkSlateGrey*/#B93950;  
+    text-decoration: none !important; 
+    position: relative;
+}
+.col-sm-2 > a:hover {
+    color:#B93950;
+
+   /* font-family: Georgia;*/
+}
+.col-sm-2 > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #995819;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+
+}
+.col-sm-2 > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+#nav a#pull {
+  display: none;
+}
+.main-nav-scrolled {
+    position: fixed;
+    top: 0;
+    width: 99.87vw;
+    margin-top: 0%;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin-top: 4%;
+    margin-bottom: 4%;
+    /*https://css-tricks.com/examples/hrs/ -- For borders*/
+}
+@keyframes bouncing {
+    0% {bottom: 0;}
+    50% {bottom: 10px;}
+    100% {bottom: 0;}
+}
+
+.arrow {
+    animation: bouncing 1s infinite ease-in-out;
+    bottom: 0;
+    display: block;
+    height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+}
+.titles {
+    color: #B93950;
+    font-family: 'Merriweather', serif;
+    font-size: 2.2em;
+}
+.list {
+    color:#995819;
+    padding-bottom: 2.1778%
+    padding-top: 2.1778%
+    font-family: 'Vollkorn', serif;
+    font-size:1.759em;
+    padding-top:0.3%
+}
+.justify {/*Make sure it is only for computer --- done by adding media query*/
+    padding-right:15%; 
+    padding-left:15%;
+    padding-top: 16%;
+}
+.simpleText {
+    font-size: /*20px*/1.11em;
+    margin-bottom: 10%;
+}
+.projectImage {
+
+}
+.contact {
+    margin-top: 5%;
+}
+input, textarea {
+    border: 2px solid #995819;
+}
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #c19a75;
+}
+[type="submit"] {
+    background: #995819;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.1em;
+}
+.submit-wrap {
+    text-align: right;
+    padding-right: 12.35%;
+}
+:required:focus {
+  box-shadow: 0  0 3px rgba(255,0,0,0.5); 
+}
+#neeche {
+    background-image: url(http://www.blastprocessor.co.uk/img/hero-texture.jpg); color: white;
+     height: 35vh;
+
+}
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+#nav.clicked {
+   height: 260px; /*Pushes down the white background in the navbar*/
+}
+#navArrow.clicked {
+    color: #B93950;
+}
+#navArrow {
+    color: white;
+}
+#fName {
+    font-family:farrayregular;
+    color:white;
+    font-size: 2.5em; /*Change on mobile*/
+    margin-top: 2%;
+    font-weight: bold;
+
+}
+#byLine {
+    font-family: igra_sansregular;
+    color: white;
+    font-size: 2.1em;
+    margin-top: 30px;/*5%*/
+
+}
+#madeWith {
+    color: #f2dbd2 !important;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 1.5em;
+    padding-top: 12%;
+}
+.fMenu {
+    margin-top: 10px;
+    color: #B93950 !important;
+    text-decoration: none !important;
+    font-family: ;
+    font-size: 1.9em;
+    font-family: 'klasikrough', 'klasikregular';
+    margin-left: 50px;
+}
+/*responsive navbar -- http://www.hongkiat.com/blog/responsive-web-nav/  */
+@font-face {
+    font-family: 'klasikregular';
+    src: url('klasik_regular-webfont.woff2') format('woff2'),
+         url('klasik_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'farrayregular';
+    src: url('farray-webfont.woff2') format('woff2'),
+         url('farray-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'igra_sansregular';
+    src: url('igrasans-webfont.woff2') format('woff2'),
+         url('igrasans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'klasikrough';
+    src: url('klasik_rough-webfont.woff2') format('woff2'),
+         url('klasik_rough-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Hover icons*/
+@import "compass/css3";
+.hovicon {
+    display: inline-block; 
+    line-height: 9px;
+    cursor: pointer;
+    margin-left: 0.8em;
+    margin-top: 1.8em;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    color: #fff;
+}
+#yo li {
+    float: left;
+}
+
+.hovicon:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content:'';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.hovicon:before {
+    speak: none;
+    font-size: 30px; /*Changes size of icons */
+    line-height: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+}
+/* Effect 1 */
+ .hovicon.effect-1 {
+    background: rgba(185, 57, 80, 0.999);
+    -webkit-transition: background 0.2s, color 0.2s;
+    -moz-transition: background 0.2s, color 0.2s;
+    transition: background 0.2s, color 0.2s;
+}
+.hovicon.effect-1:after {
+    top: -7px;
+    left: -7px;
+    padding: 7px;
+    box-shadow: 0 0 0 4px #fff;
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+    -webkit-transform: scale(.8);
+    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    transition: transform 0.2s, opacity 0.2s;
+    transform: scale(.8);
+    opacity: 0;
+}
+/* Effect 1a */
+ .hovicon.effect-1.sub-a:hover {
+    background: rgba(255, 255, 255, 1);
+    color: DarkSlateGrey; /*Green color inside the icon*/
+}
+.hovicon.effect-1.sub-a:hover:after {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+.listMargin {
+    margin-top: 3%;
+
+}
+@media only screen and (max-width: 770px) {
+    .col-sm-2 > a {
+    color:/*white DarkSlateGrey*/#7C523A;  
+    }
+    .mML {
+        margin-left: -5%;
+    }
+    splMargin {
+        margin-left: -23%;
+    }
+    .justify {
+        padding-right:3.5%; 
+        padding-left:3.5%;
+        /*padding-top: 20%;     --Commented on 12/2/17 at 8:22pm because it didnt make difference on mobile
+                                    but on desktop, it pushed 'Hello i am nachiket on the previsous (red) screen;*/
+        padding-top: 45%; /*pushes down the "hello i am nachiket and blah blah"*/
+    }
+    /*.main-nav-scrolled {
+        height: 9vh;
+    }*/
+    .main-nav {
+        /*height: 27.5vh;*/
+        height: 12.5vh; /*Changed when menu entered*/
+        width: /*103.75100%*/104.1vw;
+        margin-bottom: -80px; /*negative value given to compensate the padding-top:70%; shown below*/
+        font-size: 150%;
+        padding-top: 2.5%;
+        font-family: 'Merriweather', serif;
+    }
+    /*.paddingTop {        --Changed at 12/2/17 at 8:19pm 
+    padding-top: 20%;
+    }
+    #givePaddingforMobile {     --Changed on 12/2/17 at 8:27 because it was moved to 'justify' class
+        padding-top: 87%; pushes down the "hello i am nachiket and blah blah"
+    }*/
+    #culturalID,#sportsID,#rotaractID {
+        margin-left: -8%;
+    }
+    .lMessage {
+        font-size: 3.1vw;
+    }
+    .lThanks {
+        font-size:  6.1vw;
+    }
+    #nav > .col-sm-2{ /*nav ul*/
+        display: none;
+    }
+    #nav a#pull {
+    display: block;
+    position: relative;
+    }
+    #nav a#pull:after {
+    content:"";
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    }
+    #fName {
+     font-size: 2em;
+     margin-top: 30px;
+    }
+    #byLine {
+      font-size: 1.8em;
+     margin-top: 7%;
+    }
+    .hovicon {
+        margin-left: 0.4em;
+    }
+    #list {
+        font-size: 18px;
+    }
+    .listMargin {
+        margin-top: 7%;
+        margin-left: -15%;
+        margin-bottom: 7%;
+    }
+}
+@media only screen and (max-width: 357px) {
+    #mail {
+        display: none;
+    }
+}
