@@ -37,6 +37,9 @@ body {
     /*padding: 110px 50px 50px; for masking of content*/ 
     background: #F2F2E8;
 }
+.noStyle {
+    list-style:none;
+}
 /*.paddingTop {                  --Changed at 12/2/17 at 8:19pm to justify
     padding-top: 13%;
 }*/
