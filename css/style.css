@@ -127,6 +127,11 @@ hr {
     position: absolute;
     width: 50px;
 }
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 .titles {
     color: #B93950;
     font-family: 'Merriweather', serif;
