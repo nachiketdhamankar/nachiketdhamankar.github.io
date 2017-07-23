@@ -28,7 +28,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/bg.jpg); /* Changed from http://www.blastprocessor.co.uk/img/hero-texture.jpg */
 }
 #content, #footer {
     position: relative;
