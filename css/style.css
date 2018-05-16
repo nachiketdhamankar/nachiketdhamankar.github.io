@@ -181,7 +181,9 @@ input:focus, textarea:focus {
   box-shadow: 0  0 3px rgba(255,0,0,0.5); 
 }
 #neeche {
-    background-image: url(http://www.blastprocessor.co.uk/img/hero-texture.jpg); color: white;
+    /*background-image: url(http://www.blastprocessor.co.uk/img/hero-texture.jpg);*/
+     background-image: url(../images/bg.jpg); /* Changed from http://www.blastprocessor.co.uk/img/hero-texture.jpg */
+     color: white;
      height: 35vh;
 
 }
