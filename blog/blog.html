@@ -44,7 +44,14 @@ seo:
                         {% unless words contains "-" %} 
                             <i class="fa fa-clock-o"></i> <a>{{ post.date | date: "%-d %b %Y" }}</a>
                             <i class="fa fa-user"></i> <a>{{ site.author.name }}</a>
-                            <i class="fa fa-clock-o"></i> <a>Time to read: {{ post.content | number_of_words | divided_by: 180 | append: " minutes" }}</a>
+                            {% assign numWords =  post.content | number_of_words %}
+                            {% if numWords < 180 %}
+                                {% assign timeToRead = 1 | append: " minute"%}
+                            {%  else %}
+                                {% assign timeToRead = numWords | divided_by: 180 | append: " minutes" %}
+                            {% endif %}
+                            <i class="fa fa-clock-o"></i> <a>Time to read: {{ timeToRead }}</a>
+                            <i class="fa fa-book"></i> <a>{{ page.content | number_of_words | append: " words" }}</a>
                         {% endunless %}
                         </div>
                     </div>

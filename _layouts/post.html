@@ -22,7 +22,13 @@ custom_css:
                         </h1>
                      <div class="vote-info">
                         <i class="fa fa-book"></i> <a>{{ page.content | number_of_words | append: " words" }}</a>
-                        <i class="fa fa-clock-o"></i> <a>Time to read: {{ page.content | number_of_words | divided_by: 180 | append: " minutes" }}</a>
+                        {% assign numWords =  page.content | number_of_words %}
+                        {% if numWords < 180 %}
+                            {% assign timeToRead = 1 | append: " minute"%}
+                        {%  else %}
+                            {% assign timeToRead = numWords | divided_by: 180 | append: " minutes" %}
+                        {% endif %}
+                        <i class="fa fa-clock-o"></i> <a>Time to read: {{ timeToRead }}</a>
                      </div>
                     </div>
                     <div class="desc">
