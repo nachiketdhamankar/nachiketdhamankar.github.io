@@ -17,7 +17,7 @@
                     <div class="vertical-timeline-icon {% if career.present ==  true %} navy-bg-present {% else %} navy-bg {% endif %} navy-bg wow rotateIn">
                         {% if career.logo %}
                         <!-- <img src="{{ site.author.avatar | prepend: site.baseurl }}" height="110" width="110" class="img-responsive img-circle" alt=""> -->
-                        <img src="{{ career.logo | prepend: site.employerUrl }}" height="110" width="110" class="img-responsive img-circle" alt="">
+                        <img src="{{ career.logo | prepend: site.employerUrl }}" height="110" width="110" class="img-responsive img-circle" alt="Software Development Companies - Nachiket Dhamankar">
                         {% else %}
                             <i class="fa {{ career.icon }}"></i>
                         {% endif %}
@@ -32,7 +32,7 @@
                             </ul>
                         </span></p>
                         <span class="vertical-date"><span data-i18n="career.{{ career.date.i18n }}"> {{ career.date.detail }} </span>
-                        <br/> <span style="color: #3385FF" data-i18n="career.{{ career.job.i18n }}">{{ career.job.detail }}</span> </span>
+                        <br/> <h2 style="color: #3385FF" data-i18n="career.{{ career.job.i18n }}">{{ career.job.detail }}</h2> </span>
                     </div>
                 </div>
             {% endfor %}
