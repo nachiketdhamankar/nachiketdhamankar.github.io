@@ -1,44 +1,33 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Kace SMA Tools
-  gh_user: KACE-SMA-Tools
-  url: https://github.com/kace-sma-tools
-  img: /static/assets/img/landing/kacesmatools.png
-  desc: Idee, script e suggerimenti utili per Quest Kace Systems Management Appliace (precedentmente noto come K1000) 
+- name: Web Crawler
+  url: https://github.com/nachiketdhamankar/Fakebook-Crawler
+  img: /static/assets/img/landing/projects/web-crawler.png
+  desc: Implemented Layer 2, 3, 4 of TCP/IP stack by creating custom TCP, IP messages, performing 3-way handshake (including ARP requests), checksum generation and validation, detecting duplicate packets, and retransmit functions.
   #i18n: kace-sma-tools
 
-- name: K1000 Database Queries
-  gh_user: KACE-SMA-Tools
-  repo: K1000-Database-Queries
-  img: /static/assets/img/landing/development.png
-  desc:  Una collezione di queries MySQL per Il KACE 1000 (Quest Kace Systems Management Appliance)
+- name: Leetcode Timer
+  gh_user: leetcode-timers
+  repo: leetcode-timer
+  img: /static/assets/img/landing/projects/leetcode-timer.png
+  desc:  Designed and developed multi-user serverless backend using JWT & API Gateway; with DynamoDB to keep track of problems and time taken for each problem on Leetcode. Presently working on the front-end & chrome extension.
   #i18n: k1000-database-queries
 
-- name: IPUI to IPEI
-  gh_user: Skyflash
-  repo: ipui2ipei
-  img: /static/assets/img/landing/dect-85-512.png
-  desc: IPUI 2 IPEI converte i codici IPUI, tipici dei telefoni DECT Siemens, allo standard IPEI.
+- name: Stock Trading Tutor
+  gh_user: nachiketdhamankar
+  repo: Fakebook-Crawler
+  img: /static/assets/img/landing/projects/stock-trader.png
+  desc: Developed a multiple portfolio & strategy management app in Java using real-time data from AlphaVantage API and dynamic graph to plot portfolio performance (cost-basis and value) using JFreeChart; deployed CLI version in Docker.
 
-- name: FlottaStellare.it
-  gh_user:  ed-acfs
-  repo: ed-acfs.github.io
-  url:  https://flottastellare.it
-  img:  /static/assets/img/landing/flottastellare.png
-  desc: "Il sito web per lo Squadrone Flotta Stellare di Elite: Dangerous"
-
-- name: La Traduzione di Morrowind
-  gh_user:  Skyflash
-  repo: morrowind-italian-itp-translation
-  url: https://www.skyflash.it/traduzione-italiano-morrowind-tribunal-bloodmoon/3581/
-  img: /static/assets/img/landing/morrowind.png
-  desc: La traduzione in Italiano di Morrowind, Tribunal e Bloodmoon - A cura dell'ITP
+- name: Movie Night
+  url: https://github.ccs.neu.edu/nachiketsd/cs5200-final-project-submission
+  img: /static/assets/img/landing/projects/movie-night.jpg
+  desc: In times when users are presented with the myriad of content options, they often find themselves overwhelmed with choice. That is where our website comes into the picture. It is a guided platform to find a select choice content to watch.
   #i18n: morrowind-translation
 
-- name: This website on Github
-  gh_user: Skyflash
-  repo: skyflash.github.io
-  img: /static/assets/img/landing/me.jpg
-  desc: Il repository GitHub su cui viene sviluppato questo sito
+- name: Generic Relational REST CRUD API
+  url: https://github.ccs.neu.edu/nachiketsd/extra-credit-cs5200
+  img: /static/assets/img/landing/projects/genericRelational.jpg
+  desc: Designed and Implemented a generic server application in NodeJS and MongoDB on Heroku that exposes an endpoint that supports all relational CRUD operations. Supports all single-table and two-table operations.
   #i18n: skyflash-github

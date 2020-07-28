@@ -1,58 +1,93 @@
 # careers section data
-# if you don't have language feature(language.yml is empty), ignore "i18n" items
+# if you don't have language feature(language.yml is empty), ignore "#i18n" items
 - name:
-    detail: Integra s.r.l. (Gruppo L'Operosa)
-    i18n: integra
+    detail: Philips
+    #i18n: integra
   desc:
     detail: 
-    i18n: integra_desc
+    #i18n: integra_desc
   date:
-    detail: Febbraio 2020 - Presente
-    i18n: integra_date
+    detail: January 2020 - Present
+    #i18n: integra_date
   job:
-    detail: Sistemista IT Senior & Supporto Tecnico
-    i18n: integra_job
-  icon: fa-plus-square
-  present: true
+    detail: Software Engineering Co-op
+    #i18n: integra_job
+  logo: philips.jpg
 
 - name:
-    detail: Novomatic Italia s.p.a.
-    i18n: novomatic_b
+    detail: DTonomy
+    #i18n: sogema
   desc:
-    detail: Ho il compito di gestire, analizzare e realizzare soluzioni per supportare i servizi Office Automation erogati dall’Azienda. Il sistema Kace 1000 è stato nel tempo evoluto e grazie ad esso oggi gestiamo anche script automatizzati e configurazioni dei PC client ed installazioni software on demand.
-    i18n: novomatic_b_desc
+    detail: 
+      - Built custom Decision Tree model outperforming sklearn classifier by 3% (based on accuracy) on Spambase dataset
+      - Performed data pre-processing, exploration, visualization and built Naïve Bayes classifier model using NLTK with accuracy of 98.6% for Apache SpamAssasin dataset
+      - Automated data collection from production environment savinga minimum of 30 min/weekin microservices architecture
+      - Mined Association Rulesand created visualizations enabling users to select rules aggregated by association metrics
+    #i18n: sogema_desc
   date:
-    detail: Gennaio 2017 - Febbraio 2020
-    i18n: novomatic_b_date
+    detail: May 2019 - August 2019
+    #i18n: sogema_date
   job:
-    detail: Coordinatore Office Automation Systems
-    i18n: novomatic_b_job
+    detail: Software Engineer Intern
+    #i18n: sogema_job
+  logo: dtonomy.jpg
+
+- name:
+    detail: Northeastern University
+    #i18n: novomatic_b
+  desc:
+    detail: Tutored Object-Oriented Design (Graduate) and Computer Networks & Distributed Systems (Undergraduate) courses
+    #i18n: novomatic_b_desc
+  date:
+    detail: May 2019 - December 2019
+    #i18n: novomatic_b_date
+  job:
+    detail: Teaching Assistant
+    #i18n: novomatic_b_job
+  logo: northeastern.jpg
+
+- name:
+    detail: Northeastern University
+    #i18n: novomatic
+  desc:
+    detail:
+      - Detected plaintext and HTTPS PII leaks by analyzing 25 apps from Play Stores leveraging man-in-the-middle attack
+      - Created Google Play Store scraper to scrape top 100 apps from all categories; generated data visualization tools to analyze relationships between these categories for further research 
+    #i18n: novomatic_desc
+  date:
+    detail: April 2019 - August 2019
+    #i18n: novomatic_date
+  job:
+    detail: Research Assistant
+    #i18n: novomatic_job
+  logo: northeastern.jpg
+
+- name:
+    detail: SAP Labs (B1 Solutions)
+    #i18n: novomatic
+  desc:
+    detail: 
+      - Developed web-crawler using Python and BeautifulSoup saving 40 hours of work by scraping web-pages
+      - Maintained Crystal Reports and took an initiative to generate template to reduce design time by 40%
+    #i18n: novomatic_desc
+  date:
+    detail: January 2018 - June 2018
+    #i18n: novomatic_date
+  job:
+    detail: Software Engineer Intern
+    #i18n: novomatic_job
   icon: fa-plus-square
 
 - name:
-    detail: Novomatic Italia Services s.r.l.
-    i18n: novomatic
+    detail: Expertshub
+    #i18n: novomatic
   desc:
-    detail: Assistenza in ambito Office Automation a tutti gli utenti del Gruppo Novomatic sul territorio italiano. Gestione di server Linux e Windows che offrono diversi servizi quali Git, MDM, siti web corporate, antivirus eccetera
-    i18n: novomatic_desc
+    detail: 
+    #i18n: novomatic_desc
   date:
-    detail: Gennaio 2015 - Dicembre 2016
-    i18n: novomatic_date
+    detail: January 2017 - February 2017
+    #i18n: novomatic_date
   job:
-    detail: Referente Office Automation
-    i18n: novomatic_job
-  icon: fa-plus-square
-
-- name:
-    detail: SO.GE.M.A. SpA
-    i18n: sogema
-  desc:
-    detail: Ho progettato e gestito l'intera infrastruttura del Gruppo, realizzando un progetto di consolidamento e centralizzazione che ha ridotto i costi e permesso a tutti gli utenti (oltre 100) di lavorare in un ambiente funzionale ed uniforme.
-    i18n: sogema_desc
-  date:
-    detail: Gennaio 2006 - Dicembre 2014
-    i18n: sogema_date
-  job:
-    detail: Responsabile IT
-    i18n: sogema_job
+    detail: Software Engineer Intern
+    #i18n: novomatic_job
   icon: fa-plus-square

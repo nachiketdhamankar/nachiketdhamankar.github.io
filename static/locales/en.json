@@ -1,6 +1,6 @@
 {
   "website":{
-    "title": "Cristian Castellari"
+    "title": "Nachiket Dhamankar"
   },
   "nav":{
     "home": "Home",
@@ -17,6 +17,9 @@
   },
   "skills":{
     "my_skills": "My Skills"
+  },
+  "education":{
+    "my_education": "My Education"
   },
   "projects":{
     "my_projects": "My Projects",

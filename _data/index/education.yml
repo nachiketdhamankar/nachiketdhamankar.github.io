@@ -1,0 +1,27 @@
+# Education section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- school_name: Northeastern University
+  degree: MS in Computer Science
+  start_date: September 2018
+  end_date: December 2020
+  subjects: 
+    - Program Design Paradigm
+    - Information Retrieval
+    - Algorithms
+    - Fundamentals of Computer Networks
+    - Machine Learning
+    - Database Management Systems
+    - Computer Systems
+  activities:
+    - Northeastern Badminton Team
+  
+- school_name: KLS Gogte Institute of Technology
+  degree: BTech in Computer Science
+  start_date: August 2014
+  end_date: July 2018
+  honors_awards:
+    - General Secretary
+    - Best Student 2018
+  activities:
+    - Captain of Badminton Team (2017-2018)

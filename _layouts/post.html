@@ -21,8 +21,8 @@ custom_css:
                             {{ page.title }}
                         </h1>
                      <div class="vote-info">
-                        <i class="fa fa-book"></i> <a>{{ page.content | number_of_words | append: " Parole" }}</a>
-                        <i class="fa fa-clock-o"></i> <a>Tempo di lettura: {{ page.content | number_of_words | divided_by: 180 | append: " minuti" }}</a>
+                        <i class="fa fa-book"></i> <a>{{ page.content | number_of_words | append: " words" }}</a>
+                        <i class="fa fa-clock-o"></i> <a>Time to read: {{ page.content | number_of_words | divided_by: 180 | append: " minutes" }}</a>
                      </div>
                     </div>
                     <div class="desc">
@@ -36,10 +36,14 @@ custom_css:
                     <div class="row">
                             <div class="row">
                                     <div class="col-md-6">
-                                            <h5 style="display: inline;">Tags:</h5>
-                                            {% for tag in page.tags %}
-                                                <button class="btn btn-white btn-xs" type="button">{{ tag }}</button>
-                                            {% endfor %}
+                                        <!-- Added code on line 40, 41, 46 to not print 'Tags' if there are no tags -->
+                                            {% assign tagSize = page.tags | size %}
+                                            {% if tagSize != 0 %}
+                                                <h5 style="display: inline;">Tags:</h5>
+                                                {% for tag in page.tags %}
+                                                    <button class="btn btn-white btn-xs" type="button">{{ tag }}</button>
+                                                {% endfor %}
+                                            {% endif %}
                                     </div>
                                     <div class="col-md-6">
                                         <div class="small text-right">
@@ -59,9 +63,9 @@ custom_css:
                             <!-- share -->
                             {% include social.html %}
                             <br>
-                                <div class="related-container">
-                                <h4 class="relh4">Potrebbe Interessarti Anche...</h4>    
-                                            <div class="rect">                                        
+                                <!-- <div class="related-container">
+                                <h4 class="relh4">You might also like</h4>    
+                                            <div class="rect">                                         -->
                                             {% assign maxRelated = 4 %}
                                             {% assign minCommonTags =  1 %}
                                             {% assign maxRelatedCounter = 0 %}
@@ -82,6 +86,10 @@ custom_css:
                                                 {% endfor %}
                                             
                                                 {% if sameTagCount >= minCommonTags %}
+                                                <!-- Moved from line 62 to avoid having a "You might also like and then blank" -->
+                                                <div class="related-container">
+                                                    <h4 class="relh4">You might also like</h4>    
+                                                                <div class="rect">   
                                                  <a href="{{ site.baseurl }}{{ post.url }}">
                                                    <div class="rel">
                                                       <img src="{{post.image}}" alt="{{post.description}}">

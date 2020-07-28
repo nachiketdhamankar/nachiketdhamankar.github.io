@@ -3,11 +3,12 @@
 # Site wide configuration
 ####################################
 #
-title: Cristian Castellari
-description: "Informatico, padre e marito. Nel tempo libero mi dedico alla famiglia, agli amici e ai videogiochi"
-keywords: cristian, castellari, blog, jekyll, gh-pages, kace, github, wordpress
+title: Nachiket's 127.0.0.1
+description: "Welcome to my virtual home!"
+keywords: nachiket, nachiketsd, software, developer, engineer. SDE, SWE, python, Java, Dhamankar, software engineer, developer, github
 baseurl:  '' # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-url: https://cristiancastellari.it  # url should be 'http://<github_username>.github.io/homepage' as before
+employerUrl: '/static/assets/img/landing/employers/'
+url: https://nachiketdhamankar.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
 img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
 #
@@ -15,7 +16,7 @@ img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/
 # Jekyll configuration
 ####################################
 #
-timezone: Europe/Rome
+timezone: America/New_York
 highlighter: rouge
 markdown: kramdown
 excerpt_separator: <!--more-->
@@ -32,24 +33,24 @@ kramdown:
 # Jekyll-SEO-tag settings
 ####################################
 #
-lang: it_IT
+lang: en-US
 permalink: /blog/:categories/:title/
 
 social:
-  name: Cristian Castellari
+  name: Nachiket Dhamankar
   links:
-    - https://twitter.com/BloggerStanco
-    - https://www.facebook.com/cristian.castellari
-    - https://www.linkedin.com/in/cristiancastellari/
-    - https://github.com/Skyflash
+    - https://twitter.com/nachiketsd
+    # - https://www.facebook.com/cristian.castellari
+    - https://www.linkedin.com/in/nachiketdhamankar/
+    - https://github.com/nachiketdhamankar
 
 twitter:
   card: summary
-  username: BloggerStanco
+  username: nachiketsd
 
-webmaster_verifications:
-  google: FByo2xcDR6RaUId2DdQjhAmq9YMjlEhVlL0OgK8KDzU
-  bing: FCA4B700F192727565A2354B488A3DD5
+# webmaster_verifications:
+  # google: FByo2xcDR6RaUId2DdQjhAmq9YMjlEhVlL0OgK8KDzU
+  # bing: FCA4B700F192727565A2354B488A3DD5
 
 #
 ###################################
@@ -58,38 +59,38 @@ webmaster_verifications:
 ####################################
 #
 author:  # change following line to your infomation.
-  name: Cristian Castellari  # Be used at blog posts' author.
-  first_name: Cristian  # Be used at index page about me section.
-  last_name: Castellari  # Be used at index page about me section.
+  name: Nachiket Dhamankar  # Be used at blog posts' author.
+  first_name: Nachiket  # Be used at index page about me section.
+  last_name: Dhamankar  # Be used at index page about me section.
   avatar: /static/assets/img/landing/me.jpg  # upload your avatar at directory and edit it.
-  github_username: skyflash  # Leave blank if you don't have now
-  linkedin_id: cristiancastellari # Leave blank if you don't have now
-  facebook_username: cristian.castellari  # Leave blank if you don't have now
-  twitter: BloggerStanco
-  email: c.castellari@gmail.com  # Leave blank if you don't have now
-  cv: https://cristiancastellari.it/static/assets/cv/CV_Cristian_Castellari.pdf  # An online CV can be printed as PDF, leave blank if you don't have now
+  github_username: nachiketdhamankar  # Leave blank if you don't have now
+  linkedin_id: nachiket-dhamankar # Leave blank if you don't have now
+  facebook_username:   # Leave blank if you don't have now
+  twitter: nachiketsd
+  email: rtrnachiket@gmail.com  # Leave blank if you don't have now
+  cv: http://resume.nachiket.me  # An online CV can be printed as PDF, leave blank if you don't have now
 
 
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
-    - name: icon-wordpress
-    - name: fa-linux
+    - name: icon-aws
+    - name: icon-database
   skill_icon2:
-    - name: fa-apple
-    - name: fa-chrome
-  desc: Introduce myself will be here.  # Describe yourself.
+    - name: icon-java-bold
+    - name: icon-python
+  desc: Hello! I'm a software developer with about 2 years of experience in Software Engineering including Research. I've worked on backend engineering, networks and so on. # Describe yourself.
 
 # comment
-disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: cristiancastellari-it
+#disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+  # name: cristiancastellari-it
 
 # analytics
 ## google analytics
-ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
+#ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
 #  id: UA-93473370-3
 
 ## google optimize
-go:
+#go:
   # id:
 
 ## donation
