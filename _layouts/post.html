@@ -32,7 +32,7 @@ custom_css:
                      </div>
                     </div>
                     <div class="desc">
-                        <img itemprop="image" class="post-image" src="{{ page.image }}" alt="{{ page.title }}">
+                        <img itemprop="image" class="post-image" src="{{ page.image }}" alt="{{ page.title | append: " by Nachiket Dhamankar - Software Engineer" }}">
                         <p itemprop="description" class="intro">{{ page.intro }}</p>
                     </div>
                     <article>
@@ -98,7 +98,7 @@ custom_css:
                                                                 <div class="rect">   
                                                  <a href="{{ site.baseurl }}{{ post.url }}">
                                                    <div class="rel">
-                                                      <img src="{{post.image}}" alt="{{post.description}}">
+                                                      <img src="{{post.image}}" alt="{{post.description | append: " by Nachiket Dhamankar - Software Engineer" }}">
                                                           <h5>{{ post.title }}</h5>
                                                   </div>
                                                  </a>
