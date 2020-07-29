@@ -7,3 +7,5 @@ _site
 .vscode
 node_modules
 npm-debug.log
+
+website.code-workspace
