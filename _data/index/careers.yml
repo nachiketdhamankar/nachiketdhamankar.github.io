@@ -5,6 +5,14 @@
     #i18n: integra
   desc:
     detail: 
+      - Fixed 12 high and 4 medium security vulnerabilities by analyzing multiple Java projects utilizing Black Duck & Fortify
+      - Developed & tested registration of multiple on-premise servers under single tenant in C# using HSDP IAM
+      - Enhanced Host Qualification module in C# to validate & correct multiple on-premise host requirements
+      - Improved user flow by reducing 50% of clicks by providing action buttons in search results page using knockout.js 
+      - Reduced deployment time by 20 mins by multi-threading creation & deletion of services in Cloud Foundry in Java
+      - Built CLI module in python to deploy apps, services, & auto-scalars to Cloud Foundry using deployment tool APIs for CD
+      - Saved $400/month by revamping CI & CD pipelines from self-hosted Jenkins infrastructure to Azure Pipelines
+      - Only intern in the team to receive ‘Team up to win’ Recognition Award presented by Team Lead
     #i18n: integra_desc
   date:
     detail: January 2020 - Present
