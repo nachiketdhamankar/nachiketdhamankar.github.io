@@ -32,8 +32,12 @@ custom_css:
                      </div>
                     </div>
                     <div class="desc">
+                        {% if page.image %}
                         <img itemprop="image" class="post-image" src="{{ page.image }}" alt="{{ page.title | append: " by Nachiket Dhamankar - Software Engineer" }}">
+                        {% endif %}
+                        {% if page.intro %}
                         <p itemprop="description" class="intro">{{ page.intro }}</p>
+                        {% endif %}
                     </div>
                     <article>
                         {{ content }}
