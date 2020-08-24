@@ -5,7 +5,7 @@
     #i18n: integra
   desc:
     detail: 
-      - Fixed 12 high and 4 medium security vulnerabilities by analyzing multiple Java projects utilizing Black Duck & Fortify
+      - Fixed 7 high and 4 medium security vulnerabilities by analyzing multiple Java projects utilizing Black Duck & Fortify
       - Developed & tested registration of multiple on-premise servers under single tenant in C# using HSDP IAM
       - Enhanced Host Qualification module in C# to validate & correct multiple on-premise host requirements
       - Improved user flow by reducing 50% of clicks by providing action buttons in search results page using knockout.js 
@@ -71,7 +71,7 @@
   logo: northeastern.jpg
 
 - name:
-    detail: SAP Labs (B1 Solutions)
+    detail: SAP Labs (BNB Solutions)
     #i18n: novomatic
   desc:
     detail: 
