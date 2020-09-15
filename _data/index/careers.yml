@@ -2,6 +2,16 @@
 # if you don't have language feature(language.yml is empty), ignore "#i18n" items
 - name:
     detail: Philips
+  desc:
+    detail:
+  date:
+    detail: September 2020 - Present
+  job:
+    detail: Software Engineer
+  logo: philips.jpg
+
+- name:
+    detail: Philips
     #i18n: integra
   desc:
     detail: 
@@ -15,7 +25,7 @@
       - Only intern in the team to receive ‘Team up to win’ Recognition Award presented by Team Lead
     #i18n: integra_desc
   date:
-    detail: January 2020 - Present
+    detail: January 2020 - August 2020
     #i18n: integra_date
   job:
     detail: Software Engineering Co-op
