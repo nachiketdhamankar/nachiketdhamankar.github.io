@@ -8,26 +8,23 @@
   #i18n: kace-sma-tools
 
 - name: Leetcode Timer
-  gh_user: leetcode-timers
-  repo: leetcode-timer
+  url: http://leetcodetimerdocs.nachiket.me/
   img: /static/assets/img/landing/projects/leetcode-timer.png
   desc:  Designed and developed multi-user serverless backend using JWT & API Gateway; with DynamoDB to keep track of problems and time taken for each problem on Leetcode. Presently working on the front-end & chrome extension.
   #i18n: k1000-database-queries
 
 - name: Stock Trading Tutor
-  gh_user: nachiketdhamankar
-  repo: Fakebook-Crawler
   img: /static/assets/img/landing/projects/stock-trader.png
   desc: Developed a multiple portfolio & strategy management app in Java using real-time data from AlphaVantage API and dynamic graph to plot portfolio performance (cost-basis and value) using JFreeChart; deployed CLI version in Docker.
 
 - name: Movie Night
-  url: https://github.ccs.neu.edu/nachiketsd/cs5200-final-project-submission
+  url: https://youtu.be/xkZYD6nM_hw
   img: /static/assets/img/landing/projects/movie-night.jpg
   desc: In times when users are presented with the myriad of content options, they often find themselves overwhelmed with choice. That is where our website comes into the picture. It is a guided platform to find a select choice content to watch.
   #i18n: morrowind-translation
 
 - name: Generic Relational REST CRUD API
-  url: https://github.ccs.neu.edu/nachiketsd/extra-credit-cs5200
+  url: https://youtu.be/w3NxojIujcw
   img: /static/assets/img/landing/projects/genericRelational.jpg
-  desc: Designed and Implemented a generic server application in NodeJS and MongoDB on Heroku that exposes an endpoint that supports all relational CRUD operations. Supports all single-table and two-table operations.
+  desc: Designed and implemented a generic server application in NodeJS and MongoDB on Heroku that exposes an endpoint that supports all relational CRUD operations. Supports all single-table, predicates and two-table operations.
   #i18n: skyflash-github
