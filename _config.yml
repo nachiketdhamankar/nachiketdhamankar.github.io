@@ -78,7 +78,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: icon-java-bold
     - name: icon-python
-  desc: Hello! I'm a software developer with about 2 years of experience in Software Development and research. I've worked on Cloud Computing, Backend Development, Networks, and some cool tech. I'm always experimenting and trying to learn something new.
+  desc: Hello! I'm a software developer with about 2 years of experience in Software Development and research. I've worked on Machine Learning, Backend Development, Networks, Cloud Computing, and some cool tech. I'm always experimenting and trying to learn something new.
 
 # comment
 #disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
