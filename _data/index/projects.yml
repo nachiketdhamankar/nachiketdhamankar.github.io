@@ -2,9 +2,9 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: Web Crawler
-  url: https://github.com/nachiketdhamankar/Fakebook-Crawler
+  url: https://github.com/nachiketdhamankar/crawler-fakebook
   img: /static/assets/img/landing/projects/web-crawler.png
-  desc: Implemented Layer 2, 3, 4 of TCP/IP stack by creating custom TCP, IP messages, performing 3-way handshake (including ARP requests), checksum generation and validation, detecting duplicate packets, and retransmit functions.
+  desc: Developed a python application that crawls ~20,000 pages in search of 'secret keys'. The crawler handles the login, sessions, and cookies. It avoids loops and uses sockets for the entire communication. It communicates with fakebook using the REST APIs.
   #i18n: kace-sma-tools
 
 - name: Leetcode Timer
